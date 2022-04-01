@@ -31,5 +31,4 @@ all: $(DEPS) 2022
 	@$(64tass) $(ASFLAGS) -D USE_2022:=true -o "IHRD_2022.sfc"
 
 clean:
-	@$(RM) IHRD_all.sfc
-	@$(RM) IHRD_2022.sfc
+	@$(RM) *.sfc *.srm *.bst *.sym *.sav *.ups
