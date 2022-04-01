@@ -15,10 +15,6 @@ ASFLAGS += -i "$(VOLTEDGE)/VoltEdge.h" -i "Build.asm"
 
 DEPS := Build.asm BaseROM.asm
 
-ifneq "$(findstring 2022,$(MAKECMDGOALS))" ""
-  ASFLAGS += -D USE_2022:=true
-endif
-
 # This will build all IHRD projects individually as well
 # as creating a file that implements all of them at once,
 # for maximum fun.
