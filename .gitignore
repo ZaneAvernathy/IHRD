@@ -1,0 +1,13 @@
+
+*.sfc
+*.sym
+*.sav
+*.bst
+*.srm
+
+/*.png
+/*.spc
+/*.bin
+/*.bat
+
+*.sublime*
