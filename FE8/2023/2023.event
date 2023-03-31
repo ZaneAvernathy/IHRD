@@ -1,0 +1,25 @@
+
+#ifdef USE_2023
+  #ifndef INACCURACY_CHECK_GUARD
+    #define INACCURACY_CHECK_GUARD
+
+    #include "2023.lyn.event"
+    PUSH; ORG 0x00003C7C; jumpToHack(GetLang_Replacement); POP
+    PUSH; ORG 0x00003C88; jumpToHack(SetLang_Replacement); POP
+
+    #define ReplacedTextEntry(index, textPointer) "WORD index; POIN textPointer"
+
+    ALIGN 4; gReplacedTextEntryList: {
+      ReplacedTextEntry(0x0149, Text0149)
+      ReplacedTextEntry(0x08DB, Text08DB)
+      ReplacedTextEntry(0x0903, Text0903)
+      ReplacedTextEntry(0x090D, Text090D)
+    }; WORD (-1); ALIGN 4
+
+    Text0149:; #incbin "TEXT/Text0149.txt.bin"; ALIGN 4
+    Text08DB:; #incbin "TEXT/Text08DB.txt.bin"; ALIGN 4
+    Text0903:; #incbin "TEXT/Text0903.txt.bin"; ALIGN 4
+    Text090D:; #incbin "TEXT/Text090D.txt.bin"; ALIGN 4
+
+  #endif // INACCURACY_CHECK_GUARD
+#endif // USE_2023

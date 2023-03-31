@@ -1,14 +1,21 @@
 
-*.sfc
-*.sym
-*.sav
-*.bst
-*.srm
+/BIN
+/*.sfc
+/*.gba
+/*.sav
+/*.srm
 
-/*.png
-/*.spc
-/*.bin
-/*.bat
-/*.ups
+/TOOLS/CLib
+/TOOLS/EventAssembler
+/TOOLS/64tass*
+/TOOLS/ParseFile*
+
+/.CACHE
+
+/FE8/**/*.lyn.event
+/FE8/**/*.o
+/FE8/**/*.dmp
+/FE8/**/*.asm
+/FE8/**/*.txt.bin
 
 *.sublime*

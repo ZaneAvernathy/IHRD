@@ -7,10 +7,6 @@ GUARD_REVERSE_INPUTS :?= false
 .if (!GUARD_REVERSE_INPUTS)
   GUARD_REVERSE_INPUTS := true
 
-  ;.include "../VoltEdge/VoltEdge.h"
-
-  ; Definitions
-
   ; Fixed-location inclusions
 
   * := $00000E

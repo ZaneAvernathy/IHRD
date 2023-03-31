@@ -1,0 +1,17 @@
+
+#ifndef Freespace
+  #define Freespace 0x00B2A610
+#endif // Freespace
+
+#ifdef USE_ALL
+  #define USE_2023
+#endif // USE_ALL
+
+ORG Freespace; {
+
+  #include "EAStdlib.event"
+  #include "Extensions/Hack Installation.txt"
+
+  #include "2023/2023.event"
+
+}

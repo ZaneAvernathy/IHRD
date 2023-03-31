@@ -15,7 +15,25 @@ GUARD_IHRD :?= false
 
   .include "BaseROM.asm"
 
-  USE_2022 :?= false
+  USE_ALL :?= false
+
+  .if (USE_ALL)
+
+    USE_2019 :?= true
+    USE_2022 :?= true
+
+  .else
+
+    USE_2019 :?= false
+    USE_2022 :?= false
+
+  .endif ; USE_ALL
+
+  .if (USE_2019)
+
+    .include "2019/2019.asm"
+
+  .endif ; USE_2019
 
   .if (USE_2022)
 
