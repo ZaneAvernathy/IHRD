@@ -13,5 +13,6 @@ ORG Freespace; {
   #include "Extensions/Hack Installation.txt"
 
   #include "2023/2023.event"
+  #include "2024/2024.event"
 
 }

@@ -1,0 +1,9 @@
+
+#ifdef USE_2024
+  #ifndef HARD_MODE_GUARD
+    #define HARD_MODE_GUARD
+
+    #include "2024.lyn.event"
+
+  #endif // HARD_MODE_GUARD
+#endif // USE_2024

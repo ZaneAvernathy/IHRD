@@ -17,3 +17,4 @@ SET_FUNC DrawDifficultyDescription, 0x80ABFE1
 SET_FUNC Text_DrawChar_, 0x08004181
 
 SET_DATA DifficultyDescriptions, 0x08A20A08
+SET_DATA sWeaponTriangleRules, 0x0859BA90

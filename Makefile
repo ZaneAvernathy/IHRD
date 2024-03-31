@@ -41,7 +41,7 @@ endif
 # Game-specific dependencies are handled in their individual makefiles.
 
 export FE5_YEARS = 2019 2022
-export FE8_YEARS = 2023
+export FE8_YEARS = 2023 2024
 .PHONY: $(FE5_YEARS) $(FE8_YEARS)
 
 export NOTIFY_PROCESS = @echo "$(notdir $<) => $(notdir $@)"

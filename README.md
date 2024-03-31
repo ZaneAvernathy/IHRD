@@ -60,21 +60,22 @@ In the root folder:
 
 ## Credits
 
-[stan](https://github.com/StanHash) - CLib, lyn, ea-dep, makefiles, CHAX, wizardry, being incredible, the list goes on.
-[CrazyColorz5](https://github.com/CrazyColorz5) - ParseFile, Event Assembler, ColorzCore, the buildfile method.
-[soci](https://sourceforge.net/projects/tass64/) - 64tass
+* [stan](https://github.com/StanHash) - CLib, lyn, ea-dep, makefiles, CHAX, wizardry, being incredible, the list goes on.
+* [CrazyColorz5](https://github.com/CrazyColorz5) - ParseFile, Event Assembler, ColorzCore, the buildfile method.
+* [soci](https://sourceforge.net/projects/tass64/) - 64tass
 
 Misc. shout outs:
-circleseverywhere
-Hextator
-Nintenlord
-Leonarth
-Camdar
-Contro
-Snek
-Sme
-Huichelaar
-Teraspark
-Devvy
-Tequila
-Two Who Belong
+* circleseverywhere
+* Hextator
+* Nintenlord
+* Leonarth
+* Camdar
+* Contro
+* Snek
+* Sme
+* Huichelaar
+* Teraspark
+* Devvy
+* Tequila
+* Two Who Belong
+* Vesly
